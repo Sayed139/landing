@@ -1,0 +1,236 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1200px) {
+	.box {
+	    background: rgb(255,255,255,.5);
+	    width: 50%;
+	}
+	.description p {
+	    padding: 0px 50px;
+	}
+	.card-body {
+	    padding: 10px 0px;
+	}
+	.feature img {
+	    height: 100%;
+	}
+	.feature ul {
+	    padding-right: 0px;
+	}
+	.warning-section p {
+	    padding: 0px 50px;
+	}
+}  
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+	.banner-section {
+	    padding:0px;
+	    background-size: cover;
+	}
+	.box {
+	    width: 100%;
+	    padding: 90px;
+	}
+	.description p {
+	    font-size: 17px;
+	    line-height: 27px;
+	    color: black;
+	    padding: 0px;
+	}
+	.card-body {
+	    padding: 0;
+	}
+	h5, .h5 {
+	    color: rgb(57, 64, 70);
+	    font-size: 13px;
+	    letter-spacing: 2px;
+	    margin-top: 20px;
+	    font-weight: 700;
+	}
+	.product p {
+	    color: black;
+	    line-height: 27px;
+	    font-size: 13px;
+	    margin-top: 10px;
+	}
+	.feature h1 {
+	    color: black;
+	    font-size: 37px;
+	    line-height: 47px;
+	}
+	.feature ul {
+	    display: block;
+	    padding: 0px;
+	}
+	.feature h1 {
+	    color: black;
+	    font-size: 37px;
+	    line-height: 47px;
+	}
+	.feature ul li {
+	    font-size: 15px;
+	    line-height: 25px;
+	    padding: 5px 0px;
+	}
+	.feature img {
+	    height: 100%;
+	}
+	.warning-section p {
+	    font-size: 17px;
+	    line-height: 27px;
+	    color: black;
+	    padding: 0px;
+	}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+	.banner-section {
+	    padding:0px;
+	    background-size: cover;
+	}
+	.box {
+	    width: 100%;
+	    padding: 90px;
+	}
+	.description p {
+	    font-size: 17px;
+	    line-height: 27px;
+	    color: black;
+	    padding: 0px;
+	}
+	.card-body {
+	    padding: 0;
+	}
+	h5, .h5 {
+	    color: rgb(57, 64, 70);
+	    font-size: 13px;
+	    letter-spacing: 2px;
+	    margin-top: 20px;
+	    font-weight: 700;
+	}
+	.product p {
+	    color: black;
+	    line-height: 27px;
+	    font-size: 13px;
+	    margin-top: 10px;
+	}
+	.feature h1 {
+	    color: black;
+	    font-size: 37px;
+	    line-height: 47px;
+	}
+	.feature ul {
+	    display: block;
+	    padding: 0px;
+	}
+	.feature h1 {
+	    color: black;
+	    font-size: 37px;
+	    line-height: 47px;
+	}
+	.feature ul li {
+	    font-size: 15px;
+	    line-height: 25px;
+	    padding: 5px 0px;
+	}
+	.feature img {
+	    height: 100%;
+	}
+	.warning-section p {
+	    font-size: 17px;
+	    line-height: 27px;
+	    color: black;
+	    padding: 0px;
+	}
+	.product-features p {
+		color: black;
+		line-height: 27px;
+		font-size: 13px;
+		margin-top: 10px;
+	}
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+	.banner-section {
+	    background-color: rgb(255,255,255,.5);
+	    padding: 0px;
+	    background-size: cover;
+	    background-blend-mode: color;
+	}
+	.box {
+	    width: 100%;
+	    padding: 25px;
+	    background:transparent;
+	}
+
+	.logo img {
+	    width: 50%;
+	}
+	.description {
+	    text-align: center;
+	    padding: 20px 0px;
+	}
+	.description p {
+	    font-size: 13px;
+	    line-height: 23px;
+	    color: black;
+	    padding: 0px;
+	}
+	.product {
+	    text-align: center;
+	    padding: 20px 0px;
+	}
+	.feature img {
+	    display: none;
+	}
+	.feature {
+		background-image: url(../images/banner2.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: rgb(255,255,255,.5);
+		background-blend-mode: color;
+	    padding: 20px 0px;
+	}
+	.feature .col{
+		flex: 0 0 auto;
+	}
+	.feature ul {
+	    display: block;
+	    padding: 0px 0px 0px 45px;
+	}
+	.feature ul li {
+	    font-size: 14px;
+	    line-height: 24px;
+	    padding: 5px 0px;
+	}
+	.warning-section p {
+		font-size: 13px;
+		line-height: 23px;
+		color: black;
+		padding: 0px;
+	}
+	.warning-section{
+		padding-bottom: 0;
+	}
+	.product-features{
+		padding-bottom: 0;
+	}
+	.product-features p {
+		color: black;
+		line-height: 27px;
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	footer .button {
+	    padding: 20px 0 50px 0;
+	}
+}
+
+
+
